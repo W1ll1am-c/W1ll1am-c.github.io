@@ -1,0 +1,111 @@
+@charset "utf-8";
+@import url(style.css);
+
+
+body {
+    padding-top: 5.5%;
+}
+
+
+.contact {
+    width: 85%;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 3%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.contact h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 170%;
+    margin-bottom: 2%;
+}
+
+.contact p {
+    text-align: center;
+    color: #6c7a89;
+    margin-bottom: 3%;
+}
+
+.contact-form label {
+    display: block;
+    color: #5d6d7e;
+    margin-top: 3%;
+    font-size: 105%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1.2%;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    margin-top: 1%;
+    font-size: 100%;
+    background-color: #fafafa;
+}
+
+.contact-form .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.contact-form button {
+    width: 48%;
+    padding: 1.2% 0;
+    font-size: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-form .submit-button {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+.contact-form .reset-button {
+    background-color: #bdc3c7;
+    color: #ffffff;
+}
+
+.contact-form .submit-button:hover {
+    background-color: #357abd;
+}
+
+.contact-form .reset-button:hover {
+    background-color: #95a5a6;
+}
+
+.radio-options {
+    display: flex;
+    gap: 2%;
+    margin-top: 1%;
+}
+
+.radio-options label {
+    display: flex;
+    align-items: center;
+}
+
+
+.checkbox-options {
+    margin-top: 2%;
+}
+
+.checkbox-options label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    text-align: left;
+}
+
+.checkbox-options input[type="checkbox"] {
+    margin-right: 0.5em;
+}

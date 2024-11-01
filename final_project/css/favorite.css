@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url(style.css);
+
+.list1,
+.list2,
+.list3,
+.list4 {
+    display: flex;
+    gap: 5%;
+    justify-content: left;
+    padding: 0;
+    margin-left: 5%;
+    list-style-type: none;
+}
+
+
+
+.list4 li,
+.list1 li,
+.list3 li,
+.list2 li {
+    list-style-type: upper-roman;
+    display: list-item;
+    margin-bottom: 1%;
+
+}
+
+.list4 img,
+.list2 img {
+    display: block;
+    width: 15vh;
+    border-radius: 50%;
+}
+
+.list2 iframe {
+    display: block;
+}
+
+.list1 img {
+    display: block;
+    width: 15vw;
+    border-radius: 10%;
+}
